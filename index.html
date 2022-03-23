@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jane Bakery</title>
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="/fontawesome-free-6.0.0-web/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/Img/favicon-16x16.png">
+       <script defer src="/script.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="nav">
+      <div class="logo">
+        <div><i class="fa-solid fa-j"></i></div>
+      </div>
+      <div class="nav__links">
+        <a href="#products" class="nav__link link">Products</a>
+        <a href="#section--1"class="nav__link link">About</a>
+        <a href="#"class="link contact">contact us</a>
+      </div>
+    </nav>
+    <header class="hero" >
+      <div class="title-container text-center">
+          <h1 class="header-title">Jane Bakery</h1>
+          <span class="header-text">Fresh ingredients,Gmo free and from our local farms</span>
+        <a class="btn btn-main" href="#">Learn more</a>
+    </header></section>
+    <section class="about-section"id="section--1">
+    <div class="section  section--hidden" >
+      <h1 class="about-title section-divider text-center">about us</h1>
+      <div class="about-container">
+        <div class="flex-content">
+      <div class="section-contenet">
+        <h2 class="about-subtitle">Our story</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora adipisci cum veritatis asperiores sed exercitationem. Beatae excepturi sint debitis tempora quo in illum, corporis soluta ipsam est quas sed cumque non, perferendis aspernatur officia molestiae a ullam quam dolore?</p></div>
+      <div class="about-image"><img src="/Img/backgroundImg.jpg" alt="" /> </div></div>
+    <div class="story-container">
+      <div class="story story-active" id="story-1"><h4 class="story-title text-center">A family runned business</h4><p class="story-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et repellendus praesentium quasi. Maiores praesentium sapiente, in dicta fuga rem impedit unde, fugiat quam libero commodi tempore blanditiis quidem nemo architecto. Illum inventore ipsam facere quos exercitationem qui non at excepturi soluta architecto nemo aliquam tempore aperiam repudiandae possimus molestias, eaque quasi quia quisquam optio, nisi ex similique voluptatibus! Quibusdam, voluptates!</p></div>
+      <div class="story" id="story-2"><h4 class="story-title text-center">From local farms to our shelfs</h4><p class="story-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla vero inventore id odit rem, exercitationem ipsam distinctio possimus velit, et atque expedita facilis eligendi vitae harum commodi, aliquam nostrum odio impedit recusandae voluptatum. Fugiat qui facere ea inventore nobis, at, repellat rem, dolorem consequatur assumenda in numquam! Recusandae doloremque harum quos quibusdam, nostrum non. Sequi accusantium vitae ut sunt atque?</p></div>
+      <div class="story" id="story-3"><h4 class="story-title text-center">Gmo free</h4><p class="story-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatem sit minus ut, iure minima alias corporis recusandae labore aliquid? Voluptates recusandae iste aliquam laboriosam voluptatem labore beatae officiis. Veniam recusandae error, nisi, doloribus, mollitia id ipsum repellat est qui fugiat sapiente fuga? Repellendus totam quidem mollitia similique, consequuntur fugiat soluta. Doloribus repellat natus repellendus tempore magni dolores asperiores ullam!</p></div>
+</div>
+<div class="tab-container">
+        <button class="tab tab-active" data-tab="1">History</button>
+        <button class="tab" data-tab="2">background</button>
+        <button class="tab" data-tab="3">no Gmo</button>
+      </div></div></div>
+    </section>
+    <section id="section--2" >
+    <div class="section section--hidden" >
+        <h2 class="section-title section-divider text-center">Here is some of our products</h2>
+      <div class="slider" id="slider">
+        <div class="slide">
+          <img src="/products/slide1.jpg" alt="" class="slider-img" />
+        </div>
+        <div class="slide">
+          <img src="products/slider2.jpg" alt="" class="slider-img" />
+        </div>
+        <div class="slide">
+          <img src="products/slide3.jpg" alt="" class="slider-img" />
+        </div>
+        <div class="slide">
+          <img src="/products/slide4.jpg" alt="" class="slider-img" />
+        </div>
+        <div class="slide">
+          <img src="/products/slide5.jpg" alt="" class="slider-img" />
+        </div>
+        <button class="btn-slide btn--left">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <button class="btn-slide btn--right">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+        <div class="dots"></div>
+      </div>
+      <div class="products" id="products">
+        <div class="product">
+          <img
+            src="products/product1lazy.jpg"
+            data-src="/products/product1.jpg"
+            class="img-filter products-img"
+            alt=""
+          />
+        </div>
+        <div class="product">
+          <img
+            src="/products/product2lazy.jpg"
+            data-src="/products/product2.jpg"
+            class="products-img img-filter"
+            alt=""
+          />
+        </div>
+        <div class="product">
+          <img
+            src="/products/product3lazy.jpg"
+            data-src="/products/product3.jpg"
+            class="products-img img-filter"
+            alt=""
+          />
+        </div>
+        <div class="product">
+          <img
+            src="/products/product4lazy.jpg"
+            data-src="/products/product4.jpg"
+            class="products-img img-filter"
+            alt=""
+          />
+        </div>
+        <div class="product">
+          <img
+            src="products/product6lazy.jpg"
+            data-src="/products/product6.jpg"
+            class="products-img img-filter"
+            alt=""
+          />
+        </div>
+        <div class="product">
+          <img
+            src="products/product5lazy.jpg"
+            data-src="/products/product5.jpg"
+            class="products-img img-filter"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    </section>
+    <footer class="footer" id="footer">
+      <div class="icons">
+        <a target="_blink" href="https://www.instagram.com/losingsan3ty/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div></section>
+    </footer>
+    <div class="login modal-hidden">
+      <form class="modal-form text-center"  action="https://formspree.io/f/mwkyqlwr" method="POST">
+        <div ><div class="left"><label  class="modal-text" for="Email">Email</label><input name="Email" type="email" /></div>
+       <label for="Opinion"></label> </div><textarea  placeholder="What do you think about us" name="Opinion" id="" cols="2" rows="10"></textarea>
+       <button class="contact-btn  " type="submit">SUMBIT</button>
+      </form><button class="close-modal "><i class="fa-solid fa-x "></i></button></div>
+      <div class="blur"></div>
+    </div>
+  </body>
+</html>
